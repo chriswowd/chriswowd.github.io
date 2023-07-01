@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Achievements</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" 
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+crossorigin="anonymous">
+<Body background="back2.png">  
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Bio</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="qualifications.html">Qualifications</a></li>
+                <li><a href="Hobbies.html">Hobbies</a></li>
+                <li><a href="gallery.html">Photo Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<!--Section 5: Education and Skills-->
+
+<div class="column-2a">
+    <h1>Education</h1>
+      <table class="table-style">
+        <tr>
+          <td><h6>St. Joseph Engineering College</h6>
+              B.E. Computer Science Engineering</td>
+          <td><b>2020-24</b></td>
+        </tr>
+        <tr>
+            <td><h6>Carmel School Kuwait</h6>
+                K.G.-12th Grade</td>
+            <td><b>2006-20</b></td>
+          </tr>
+      </table>
+    </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Chris Aziel DSouza</p>
+        <div class="digital-clock">
+          Server Time: <span id="serverTime"></span>
+        </div>
+      </footer>
+      <script>
+
+      function updateServerTime() {
+        var serverTime = new Date().toLocaleString();
+        document.getElementById('serverTime').textContent = serverTime;
+      }
+      setInterval(updateServerTime, 1000);
+      </script>
+</body>
+</html>
